@@ -1,0 +1,38 @@
+body{
+    background-color: #f1f1f1;
+    text-align: center;
+    margin-top: 5rem
+}
+h1{
+    color: rgb(46, 65, 74);
+    font-size: 41px
+}
+button{
+    color: aqua;
+    border-radius: 2px;
+    cursor: pointer ;
+    border: none;
+    color: white;
+    font-family: math;
+    margin: 3.5px;
+    padding: 4px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    transition: opacity .3s ease-in-out;
+}
+button:hover{
+    opacity: .7;
+}
+#stop{
+    background-color: rgb(227, 58, 28);
+}
+#start{
+    background-color:rgb(60, 180, 144) ;
+}
+#reset{
+    background-color: grey;
+}
+#timer{
+    font-size: 50px;
+    padding: 40px;
+}
